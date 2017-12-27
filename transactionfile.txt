@@ -1,0 +1,57 @@
+AddHusband 100100100 Jim Smith
+
+AddHusband 200200200 Joe Brown
+
+AddHusband 300300300 Kevin Tarr
+
+AddHusband 400400400 Richard Anderson
+
+AddHusband 500500500 Ken Baker
+
+
+
+PrintAllFamilies
+
+
+
+AddWife 210210210 Linda Brown 200200200
+
+AddWife 410410410 Mary Anderson 400400400
+
+AddWife 510510510 Beth Baker 500500500
+
+AddWife 310310310 Ana Tarr 333333333
+
+
+
+PrintAllFamilies
+
+
+
+AddAchild 211211211 Tina Brown 200200200
+
+AddAchild 212212212 Rick Brown 200200200
+
+AddAchild 211211211 Nina Brown 200200200
+
+AddAchild 511511511 Sam Baker 500500500
+
+AddAchild 512512512 Serge Baker 500500500
+
+
+
+RemoveAchild 200200200 211211211
+
+RemoveAchild 200200200 311311311
+
+
+
+PrintAFamily 333333333
+
+PrintAFamily 400400400
+
+PrintAFamily 200200200
+
+
+
+PrintAllFamilies
